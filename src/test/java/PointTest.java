@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 class PointTest {
+
   @Test
   void builder() {
     Point.builder()

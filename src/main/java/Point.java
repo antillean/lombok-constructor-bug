@@ -7,9 +7,7 @@ import lombok.NonNull;
 @Builder
 @NoArgsConstructor
 class Point {
-  @NonNull
-  private Double x;
-  @NonNull
-  private Double y;
+  @NonNull private Double x;
+  @NonNull private Double y;
   private Double z;
 }
