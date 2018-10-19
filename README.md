@@ -1,6 +1,6 @@
 # lombok-constructor-bug
 
-This repo demonstrates a bug where lombok 1.18.2 (and all previously tested versions, which were up to v1.16.18) doesn't properly generate multiple constructors at the same access level.
+This repo demonstrates a bug where lombok 1.18.2 (and all previously tested versions, which were up to v1.16.18) doesn't properly allow for the mixing of `@Data`, `@Builder` and constructor annotations.
 
 1. Clone the repository
 2. Build and run it. Some options:
